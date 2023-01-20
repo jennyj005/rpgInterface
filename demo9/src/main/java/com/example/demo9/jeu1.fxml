@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo9.HelloController">
+   <children>
+      <ImageView fx:id="myImageView2" fitHeight="377.0" fitWidth="607.0" layoutX="-6.0" onDragDetected="#onHelloButtonClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imageAA.jpg" />
+         </image>
+      </ImageView>
+      <MenuButton fx:id="menu" layoutX="23.0" layoutY="58.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Archer" />
+          <MenuItem mnemonicParsing="false" text="Mage" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>
